@@ -1,0 +1,7 @@
+.myinput{
+    margin-top: 1rem;
+}
+.myRegRow{
+    display: flex;
+    justify-content: center;
+}

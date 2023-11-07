@@ -1,0 +1,63 @@
+<!-- product_detail.html -->
+<!-- product_list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>جزئیات محصول</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .product-details {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .product-details img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .product-details h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .product-details p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-details">
+        <img src="{{ product.image.url }} " alt="تصویر محصول">
+        <h2>{{ product.name }}</h2>
+        <p>Price: {{ product.price }}</p>
+        <p>توضیحات: توضیحات محصول</p>
+    <style>
+.footer {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+
+<div class="footer">
+  <p>متن پایین صفحه شما در اینجا قرار می گیرد.</p>
+ </div>
+
+</body>
+</html>
